@@ -5,6 +5,8 @@ var mongoose = require('mongoose');
 
 // cria schema do mongo
 var wineSchema = mongoose.Schema({
+  //Aqui seria melhor avaliar se descreve total e precisamente o que a variável representa
+  //por exemplo "funçãoNome"
   name: String,
   year: String,
   grapes: String,
